@@ -12,10 +12,6 @@
 		24072B152A06F13E00C8E4BB /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 24072B112A06F13E00C8E4BB /* NSDate+Extension.m */; };
 		24072B162A06F13E00C8E4BB /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 24072B122A06F13E00C8E4BB /* UIView+Extension.m */; };
 		2423252B2A06E0D8001D54CC /* LZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2423252A2A06E0D8001D54CC /* LZNavigationController.m */; };
-		242325332A06E6D5001D54CC /* LZListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 242325312A06E6D5001D54CC /* LZListViewController.m */; };
-		242325342A06E6D5001D54CC /* LZListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 242325322A06E6D5001D54CC /* LZListViewController.xib */; };
-		2423253A2A06E860001D54CC /* LZAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 242325382A06E860001D54CC /* LZAddViewController.m */; };
-		2423253B2A06E860001D54CC /* LZAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 242325392A06E860001D54CC /* LZAddViewController.xib */; };
 		249E1EB12A07537D0047C499 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 249E1EB02A07537D0047C499 /* ViewController.xib */; };
 		249E1EE12A0779580047C499 /* Record.plist in Resources */ = {isa = PBXBuildFile; fileRef = 249E1EE02A0779580047C499 /* Record.plist */; };
 		24CA68AB292E154B00F9DCA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CA68AA292E154B00F9DCA4 /* AppDelegate.m */; };
@@ -40,12 +36,6 @@
 		2423252A2A06E0D8001D54CC /* LZNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZNavigationController.m; sourceTree = "<group>"; };
 		2423252C2A06E165001D54CC /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		2423252D2A06E177001D54CC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		242325302A06E6D5001D54CC /* LZListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZListViewController.h; sourceTree = "<group>"; };
-		242325312A06E6D5001D54CC /* LZListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZListViewController.m; sourceTree = "<group>"; };
-		242325322A06E6D5001D54CC /* LZListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LZListViewController.xib; sourceTree = "<group>"; };
-		242325372A06E860001D54CC /* LZAddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZAddViewController.h; sourceTree = "<group>"; };
-		242325382A06E860001D54CC /* LZAddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZAddViewController.m; sourceTree = "<group>"; };
-		242325392A06E860001D54CC /* LZAddViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LZAddViewController.xib; sourceTree = "<group>"; };
 		249E1EB02A07537D0047C499 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		249E1EE02A0779580047C499 /* Record.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Record.plist; sourceTree = "<group>"; };
 		24CA68A6292E154B00F9DCA4 /* testProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,12 +109,6 @@
 				24CA68AF292E154B00F9DCA4 /* ViewController.h */,
 				24CA68B0292E154B00F9DCA4 /* ViewController.m */,
 				249E1EB02A07537D0047C499 /* ViewController.xib */,
-				242325302A06E6D5001D54CC /* LZListViewController.h */,
-				242325312A06E6D5001D54CC /* LZListViewController.m */,
-				242325322A06E6D5001D54CC /* LZListViewController.xib */,
-				242325372A06E860001D54CC /* LZAddViewController.h */,
-				242325382A06E860001D54CC /* LZAddViewController.m */,
-				242325392A06E860001D54CC /* LZAddViewController.xib */,
 				242325292A06E0D8001D54CC /* LZNavigationController.h */,
 				2423252A2A06E0D8001D54CC /* LZNavigationController.m */,
 				24CA68B2292E154B00F9DCA4 /* Main.storyboard */,
@@ -220,9 +204,7 @@
 				249E1EB12A07537D0047C499 /* ViewController.xib in Resources */,
 				249E1EE12A0779580047C499 /* Record.plist in Resources */,
 				24CA68B9292E154D00F9DCA4 /* LaunchScreen.storyboard in Resources */,
-				2423253B2A06E860001D54CC /* LZAddViewController.xib in Resources */,
 				24CA68B6292E154D00F9DCA4 /* Assets.xcassets in Resources */,
-				242325342A06E6D5001D54CC /* LZListViewController.xib in Resources */,
 				24072B132A06F13E00C8E4BB /* WSDatePickerView.xib in Resources */,
 				24CA68B4292E154B00F9DCA4 /* Main.storyboard in Resources */,
 			);
@@ -278,9 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24072B162A06F13E00C8E4BB /* UIView+Extension.m in Sources */,
-				242325332A06E6D5001D54CC /* LZListViewController.m in Sources */,
 				24CA68B1292E154B00F9DCA4 /* ViewController.m in Sources */,
-				2423253A2A06E860001D54CC /* LZAddViewController.m in Sources */,
 				24CA68AB292E154B00F9DCA4 /* AppDelegate.m in Sources */,
 				24CA68BC292E154D00F9DCA4 /* main.m in Sources */,
 				24CA68AE292E154B00F9DCA4 /* SceneDelegate.m in Sources */,
@@ -441,7 +421,7 @@
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,7 +453,7 @@
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

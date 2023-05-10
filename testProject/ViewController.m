@@ -6,7 +6,6 @@
 //
 
 #import "ViewController.h"
-#import "LZListViewController.h"
 
 static NSString * const fotmatHour = @"HH:mm:ss";
 static NSString * const fotmatDay = @"yyyyMMdd";
@@ -82,7 +81,18 @@ static NSString * const fotmatMonth = @"yyyyMM";
     return dic;
 }
 
-#pragma mark - FSCalendarDelegate
+#pragma mark - FSCalendarDelegate ,dataSource
+
+- (NSString *)calendar:(FSCalendar *)calendar subtitleForDate:(NSDate *)date {
+    NSString *month = [self changeData:date withFormate:fotmatMonth];
+    NSString *day = [self changeData:date withFormate:fotmatDay];
+    NSDictionary *dayDic = self.dataSource[month][day];
+    if ([dayDic[@"hours"] length] > 0) {
+        return @"已打卡";
+    }
+
+    return @"";
+}
 
 // 设置五行显示时的calendar布局
 - (void)calendar:(FSCalendar *)calendar boundingRectWillChange:(CGRect)bounds animated:(BOOL)animated {
@@ -278,6 +288,7 @@ static NSString * const fotmatMonth = @"yyyyMM";
     _calendar.appearance.headerDateFormat = @"yyyy年MM月";
     _calendar.appearance.todayColor = [UIColor clearColor];
     _calendar.appearance.titleTodayColor = [UIColor lightGrayColor];
+    _calendar.appearance.subtitleTodayColor = [UIColor lightGrayColor];
     _calendar.appearance.borderRadius = 1.0;  // 设置当前选择是圆形,0.0是正方形
     _calendar.appearance.headerMinimumDissolvedAlpha = 0.0;
     _calendar.backgroundColor = [UIColor whiteColor];
